@@ -4,7 +4,8 @@ export PATH
 #===============================================================================================
 #   System Required:  CentOS 6,7, Debian, Ubuntu
 #   Description: Install Shadowsocks-Python server script
-#   Author: jerryliu2000 <info@yang.nz>
+#   Editor: jerryliu2000 <info@yang.nz>
+#   Author: teddysun
 #   Reference: https://github.com/clowwindy && https://github.com/teddysun/  
 #===============================================================================================
 
