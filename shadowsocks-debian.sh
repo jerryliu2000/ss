@@ -9,7 +9,8 @@
 # Description:       A secure socks5 proxy, designed to protect your Internet traffic.
 ### END INIT INFO
 
-# Author: Jerryliu2000 <info@yang.nz>
+# Editor: jerryliu2000 <info@yang.nz>
+# Author: teddysun
 # Reference: https://github.com/clowwindy && https://github.com/teddysun/
 
 
