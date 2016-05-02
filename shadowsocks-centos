@@ -11,7 +11,8 @@
 # Description: Start or stop the Shadowsocks server
 ### END INIT INFO
 
-# Author: Jerryliu2000 <info@yang.nz>
+# Editor: jerryliu2000 <info@yang.nz>
+# Author: teddysun
 # Reference: https://github.com/clowwindy && https://github.com/teddysun/
 
 name=shadowsocks
