@@ -1,4 +1,5 @@
 # SS
-Scripts for installation ShadowSocks in linux environment 
+Scripts for installation ShadowSocks in linux environment.
+Easy to deploy Shadowsocks Server on VPS with one script only.  
 Enjoy it!
-# Blog: http://yang.nz
+# Blog address: http://yang.nz
