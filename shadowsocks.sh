@@ -150,7 +150,7 @@ function download_files(){
             exit 1
         fi
     else
-        if ! wget --no-check-certificate https://raw.githubusercontent.com/jerryliu2000/ss/master/shadowsocks-debian.sh -O /etc/init.d/shadowsocks; then
+        if ! wget --no-check-certificate https://raw.githubusercontent.com/jerryliu2000/ss/master/shadowsocks-debian -O /etc/init.d/shadowsocks; then
             echo "Failed to download shadowsocks chkconfig file!"
             exit 1
         fi
