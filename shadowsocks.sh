@@ -90,8 +90,8 @@ function pre_install(){
     while true
     do
     echo -e "Please input port for shadowsocks-python [1-65535]:"
-    read -p "(Default port: 8888):" shadowsocksport
-    [ -z "$shadowsocksport" ] && shadowsocksport="8888"
+    read -p "(Default port: 8388):" shadowsocksport
+    [ -z "$shadowsocksport" ] && shadowsocksport="8388"
     expr $shadowsocksport + 0 &>/dev/null
     if [ $? -eq 0 ]; then
         if [ $shadowsocksport -ge 1 ] && [ $shadowsocksport -le 65535 ]; then
@@ -166,8 +166,8 @@ function config_shadowsocks(){
     "local_address":"127.0.0.1",
     "local_port":1080,
     "password":"${shadowsockspwd}",
-    "timeout":300,
-    "method":"aes-256-cfb",
+    "timeout":600,
+    "method":"chacha20",
     "fast_open":false
 }
 EOF
@@ -243,7 +243,7 @@ function install_ss(){
         echo -e "Your Password: \033[41;37m ${shadowsockspwd} \033[0m"
         echo -e "Your Local IP: \033[41;37m 127.0.0.1 \033[0m"
         echo -e "Your Local Port: \033[41;37m 1080 \033[0m"
-        echo -e "Your Encryption Method: \033[41;37m aes-256-cfb \033[0m"
+        echo -e "Your Encryption Method: \033[41;37m chacha20 \033[0m"
         echo
         exit 0
     else
